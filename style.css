@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Museo Sans 100 Thin';
+    src: url('MuseoSansCyrl-100.eot');
+    src: url('MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-100.woff') format('woff'),
+    url('MuseoSansCyrl-100.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 392px;
+    width: 1280px;
+    left: -640px;
+    top: -660px;
+    border-radius: 0px;
+    background-color: #F0F0F0;
+}
+
+.balance{
+    height: 242px;
+    width: 255px;
+    background-color: #6A6A6A;
+    background-color: #e5e5e5;
+    margin: 57px 83px 93px 70px;
+}
+
+.discount{
+    height: 242px;
+    width: 802px;
+    background-color: #6A6A6A;
+    margin: 57px 70px 93px 0px;
+}
+
+
+
+.balance-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.balance-title{
+    display: inline-block;
+    padding-top: 16px;
+    padding-left: 38px;
+    color: #242424;
+    font-family: Museo Sans Cyrl;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.balance-coin img{
+    height: 40px;
+    width: 40px;
+    transform: rotate(-10deg);
+}
+
+.balance-coin{
+    padding: 22px 6.48px 144.48px 38px;
+}
+
+.balance-dscr{
+    font-family: Museo Sans Cyrl;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 43px;
+    padding: 26px 9px 149px;
+}
+
+.balance-money img{
+    width: 46px;
+    height: 38px;
+    filter: brightness(0);
+}
+
+.balance-money{
+    padding: 26px 46px 159px 9px;
+}
+
+.discount{
+    background-color: #e5e5e5
+}
+
+.discount-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 13px;
+}
+
+.discount-title{
+    padding-top: 16px;
+    padding-left: 29px;
+}
+.discount-title span{
+    color: #242424;
+    font-family: 'Museo Sans 100 Thin';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0px;
+}
+
+.discount-instr{
+    font-family: 'Museo Sans 100 Thin';
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    padding-top: 11px;
+    padding-right: 20px;
+}
+
+.discount-instr a{
+    color: #242424;
+}
+
+.discount-carts{
+    width: 540px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.discount-cart-wrapper{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 45px;
+}
+
+.discount-cart-wrapper:first-child{
+    margin-left: 68px;
+    position: relative;
+}
+
+
+.discount-line-1,
+.discount-line-2,
+.discount-line-3,
+.discount-line-4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.discount-line-1{
+    padding-top: 42px;
+    padding-bottom: 12px;
+}
+.discount-line-2{
+    padding-bottom: 14px;
+}
+.discount-line-3{
+    padding-bottom: 9.33px;
+}
+
+.discount-coin img{
+    height: 14px;
+    width: 14px;
+}
+
+
+.discount-dscr{
+    font-family: Museo Sans Cyrl;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #242424;
+}
+
+.discount-money img{
+    width: 15px;
+    height: 13px;
+    filter: brightness(0);
+}
+
+.phone img{
+    width: 38px;
+    height: 38px;
+    filter: brightness(0);
+}
+
+.discount-rectangle-1,
+.discount-rectangle-2,
+.discount-rectangle-3,
+.discount-rectangle-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 12px;
+    left: -22px;
+    width: 40px;
+    height: 25px;
+    background: #FF1A1A;
+    border-radius: 4px;
+    transform: rotate(-12.5deg); 
+    margin-right: 4px;
+}
+
+.discount-rectangle-1 span,
+.discount-rectangle-2 span,
+.discount-rectangle-3 span,
+.discount-rectangle-4 span{
+    font-family: Museo Sans Cyrl;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+
+.line3-dscr{
+    font-family: Museo Sans Cyrl;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #242424;
+}
+
+.discount-line-4 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 42px;
+    background: #FECE00;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.discount-cart-wrapper:first-child a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 42px;
+    background: #00CD52;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .5);
+}
+
+
+.discount-line-4 span{
+    font-family: Museo Sans Cyrl;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.discount-centr{
+    justify-content: center;
+}
